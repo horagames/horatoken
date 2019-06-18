@@ -1,0 +1,115 @@
+~/Projects/HoraToken(master*) » truffle migrate --network ropsten                                                                                                                                                                                          worker@mbprodrsinisa
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        5468353
+   > block timestamp:     1556090657
+   > account:             0x8f82df3391967E72A98560bAE3baECC7F2075F1e
+   > balance:             1.595439286
+   > gas used:            258162
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000258162 ETH
+
+   -------------------------------------
+   > Total cost:         0.000258162 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'HoraToken'
+   ---------------------
+   > block number:        5468355
+   > block timestamp:     1556090669
+   > account:             0x8f82df3391967E72A98560bAE3baECC7F2075F1e
+   > balance:             1.593813281
+   > gas used:            1598977
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001598977 ETH
+
+   -------------------------------------
+   > Total cost:         0.001598977 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001857139 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 0x7a121d
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x8acf5296f02cc80530387fe89707f2e124c8f24f4621e8cc0b7d842dd1fe95a8
+   > Blocks: 2            Seconds: 32
+   > contract address:    0x3f957f30CB6D6D2aF7f06317f3B33593354e0550
+   > block number:        5468354
+   > block timestamp:     1556090702
+   > account:             0x8f82df3391967E72A98560bAE3baECC7F2075F1e
+   > balance:             1.595424286
+   > gas used:            273162
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000273162 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000273162 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'HoraToken'
+   ---------------------
+   > transaction hash:    0xa452e7bb7758c684e084e553187058bb32b37287111862553f82fb991f7dfd44
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x614d3d31c7E8a65EfBb380Bc7b3f619A3dd48Eb1
+   > block number:        5468357
+   > block timestamp:     1556090722
+   > account:             0x8f82df3391967E72A98560bAE3baECC7F2075F1e
+   > balance:             1.593738281
+   > gas used:            1643977
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001643977 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.001643977 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001917139 ETH

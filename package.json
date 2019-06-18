@@ -1,0 +1,30 @@
+{
+  "name": "HoraToken",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server -c ./bs-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-dapp": "bash scripts/migrate-and-setup.sh"
+  },
+  "originalAuthors": "truffle-box",
+  "author": {
+    "name": "Francesco Sullo",
+    "email": "francesco@sullo.co"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^1.10.0",
+    "regenerator-runtime": "^0.13.2",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5",
+    "truffle-hdwallet-provider-privkey": "^1.0.3",
+    "truffle-ledger-provider": "^1.0.1"
+  }
+}
