@@ -1,6 +1,7 @@
 const port = process.env.HOST_PORT || 9090
 
 module.exports = {
+    useZeroFourCompiler: true,
     networks: {
         development: {
             privateKey: process.env.PRIVATE_KEY_DEV,

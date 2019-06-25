@@ -34,28 +34,28 @@
 //   }
 // };
 
-const regeneratorRuntime = require("regenerator-runtime");
+// const regeneratorRuntime = require("regenerator-runtime");
 
-var LedgerWalletProvider = require("truffle-ledger-provider");
-var infura_apikey = ''; // set your Infura API key
-var ledgerOptions = {
-  networkId: 3, // ropsten testnet
-  accountsOffset: 0 // we use the first address
-};
+// var LedgerWalletProvider = require("truffle-ledger-provider");
+// var infura_apikey = ''; // set your Infura API key
+// var ledgerOptions = {
+//   networkId: 3, // ropsten testnet
+//   accountsOffset: 0 // we use the first address
+// };
 module.exports = {
   compilers: {
     solc: {
-      version: '^0.5.2', // A version or constraint - Ex. "^0.5.0"
+      version: '0.5.4', // A version or constraint - Ex. "^0.5.0"
     }
   },
-  networks: {
-    ropsten: {
-      provider: new LedgerWalletProvider(
-        ledgerOptions,
-        "https://ropsten.infura.io/" + infura_apikey
-      ),
-      network_id: 3,
-      gas: 4600000
-    }
-  }
+  // networks: {
+  //   ropsten: {
+  //     provider: new LedgerWalletProvider(
+  //       ledgerOptions,
+  //       "https://ropsten.infura.io/" + infura_apikey
+  //     ),
+  //     network_id: 3,
+  //     gas: 4600000
+  //   }
+  // }
 };
